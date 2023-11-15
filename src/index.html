@@ -7,11 +7,21 @@
 </head>
 <body>
     <form id="bikeSearch">
-        <label>
-            <input type="number" id="bikeID">Input your bike ID
-        </label>
+        <p>Input your bike ID</p>
+        <input type="number" id="bikeID">
         <button type="submit">Search</button>
+        <div id="bikeStats"></div>
     </form>
-    <p id="bikeTitle"></p>
+    <form id="stolenSearch">
+        <p>Enter an address, zipcode, city, or latitude/longitude</p>
+        <input type="text" id="stolenArea">
+        <button type="submit">Find</button>
+        <div id="stolenBikes">
+            <h2>Bike Info</h2>
+            <img alt="Bike Image" id="bikeImage">
+            <p>Date Stolen: <span id="dateStolen"></span></p>
+            <button id="nextStolen">Next</button>
+        </div>
+    </form>
 </body>
 </html>
