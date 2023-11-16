@@ -11,7 +11,7 @@ img {
     height: 400px;
 }
 
-/* body, h1, h2, p, form, input, button {
+body, h1, h2, p, form, input, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -56,11 +56,10 @@ img {
     color: #007bff;
   }
   img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
   }
   #dateStolen {
     font-weight: bold;
     color: #ff0000;
-  } */
+  } 
